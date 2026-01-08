@@ -2,6 +2,8 @@
 
 An interactive physics playground where emojis burst from your cursor and interact with realistic collision physics. Built with **React**, **Matter.js**, and **Tailwind CSS**, this playful app brings expressive emojis to life with gravity, bouncing, and drag interactions!
 
+[https://woody-lin-emoji-splash.vercel.app/](https://woody-lin-emoji-splash.vercel.app/)
+
 ![emoji pile up](./img/pileEmoji.png)
 
 Shake the board!
