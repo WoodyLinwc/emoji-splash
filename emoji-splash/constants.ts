@@ -1,0 +1,24 @@
+export const EMOJI_SETS = {
+  FACES: ['😀', '🤣', '🥰', '🤪', '😎', '😭', '😡', '🤢', '🤯', '🥳', '😴', '🤠', '🤡', '👻', '👽', '🤖'],
+  FOOD: ['🍏', '🍎', '🍐', '🍊', '🍋', '🍌', '🍉', '🍇', '🍓', '🍒', '🍑', '🥑', '🍆', '🥔', '🥕', '🌽', '🌶️', '🍔', '🍕', '🍩', '🍦'],
+  ANIMALS: ['🐶', '🐱', '🐭', '🐹', '🐰', '🦊', '🐻', '🐼', '🐨', '🐯', '🦁', '🐮', '🐷', '🐸', '🐙', '🦄', '🐝', '🦕'],
+  ACTIVITIES: ['⚽', '🏀', '🏈', '⚾', '🎾', '🏐', '🏉', '🎱', '🏓', '🏸', '🥊', '🥋', '🎨', '🎬', '🎤', '🎧', '🎷', '🎸'],
+  RANDOM: [] as string[],
+};
+
+// Combine all for random set
+EMOJI_SETS.RANDOM = [
+  ...EMOJI_SETS.FACES,
+  ...EMOJI_SETS.FOOD,
+  ...EMOJI_SETS.ANIMALS,
+  ...EMOJI_SETS.ACTIVITIES
+];
+
+export const PHYSICS_CONFIG = {
+  WALL_THICKNESS: 100, // Thickness of invisible walls off-screen
+  MIN_EMOJI_SIZE: 15,
+  MAX_EMOJI_SIZE: 45,
+  SPAWN_RATE_MS: 40, // How fast emojis spawn when holding mouse
+  RESTITUTION: 0.6, // Bounciness
+  FRICTION: 0.5,
+};

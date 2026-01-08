@@ -1,0 +1,5 @@
+{
+  "name": "Emoji Splash",
+  "description": "A fun interactive whiteboard where emojis burst from your cursor and pile up with realistic physics collision.",
+  "requestFramePermissions": []
+}
